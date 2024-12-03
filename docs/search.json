@@ -95,7 +95,7 @@
     "href": "lectures.html",
     "title": "Lectures",
     "section": "",
-    "text": "Lectures\n\nMachine Learning\nNeural Networks Fundamental"
+    "text": "Lectures\n\nMachine Learning\nNeural Networks Fundamentals\nPerceptron and Linear Classifiers\nActivation Functions in Neural Networks\nMultilayer Perceptron Architecture\nBackpropagation Mechanism\nGradient Descent Optimization\nLearning Rates and Weight Initialization\nOverfitting and Regularization\nConvolutional Neural Networks(CNNs)\nPerformance Metrics\nActivation Functions in Neural Networks"
   },
   {
     "objectID": "capstone.html",
