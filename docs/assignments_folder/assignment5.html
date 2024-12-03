@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction to Deep Learning: Bridging Theory and Practice using PyTorch – Introduction to Deep Learning</title>
+<title>assignment5 – Introduction to Deep Learning</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-f23ab18612d661d7bd56dbc0c0fd3817.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1322888c997fad56b0b4d776d35cf542.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-f23ab18612d661d7bd56dbc0c0fd3817.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1322888c997fad56b0b4d776d35cf542.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Introduction to Deep Learning</span>
     </a>
   </div>
@@ -89,23 +89,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./lectures.html"> 
+    <a class="nav-link" href="../lectures.html"> 
 <span class="menu-text">Lectures</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./assignments.html"> 
+    <a class="nav-link" href="../assignments.html"> 
 <span class="menu-text">Assignments</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./capstone.html"> 
+    <a class="nav-link" href="../capstone.html"> 
 <span class="menu-text">Capstone Project</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./materials.html"> 
+    <a class="nav-link" href="../materials.html"> 
 <span class="menu-text">Course Materials</span></a>
   </li>  
 </ul>
@@ -124,195 +124,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course Description</a></li>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a></li>
-  <li><a href="#communication" id="toc-communication" class="nav-link" data-scroll-target="#communication">Communication</a></li>
-  <li><a href="#lectures" id="toc-lectures" class="nav-link" data-scroll-target="#lectures">Lectures</a></li>
-  <li><a href="#practical-sessions" id="toc-practical-sessions" class="nav-link" data-scroll-target="#practical-sessions">Practical Sessions</a></li>
-  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
-  <li><a href="#capstone-project" id="toc-capstone-project" class="nav-link" data-scroll-target="#capstone-project">Capstone Project</a></li>
-  <li><a href="#late-assignments" id="toc-late-assignments" class="nav-link" data-scroll-target="#late-assignments">Late Assignments</a></li>
-  <li><a href="#policies" id="toc-policies" class="nav-link" data-scroll-target="#policies">Policies</a>
-  <ul class="collapse">
-  <li><a href="#collaboration" id="toc-collaboration" class="nav-link" data-scroll-target="#collaboration">Collaboration</a></li>
-  <li><a href="#academic-integrity-and-plagerism" id="toc-academic-integrity-and-plagerism" class="nav-link" data-scroll-target="#academic-integrity-and-plagerism">Academic Integrity and Plagerism</a></li>
-  </ul></li>
+  <li><a href="#Pop_Music_Generation" id="toc-Pop_Music_Generation" class="nav-link active" data-scroll-target="#Pop_Music_Generation">Pop Music Generation</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Introduction to Deep Learning: Bridging Theory and Practice using PyTorch</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>This course provides a comprehensive introduction to deep learning, guiding you through fundamental theoretical concepts, neural network architectures, and hands-on implementation in PyTorch. Through clear explanations supplemented with practical examples and coding exercises, you will gain expertise in constructing deep neural networks, implementing cutting-edge architectures, training and optimizing models, and deploying deep learning systems. The curriculum covers convolutional neural networks, sequence models, generative adversarial networks, and other key architectures. You will master techniques for training robust models at scale and troubleshooting common pitfalls. By the end of this course, you will have the skills to independently implement, debug, and deploy production-ready deep learning models in PyTorch.</p>
-</section>
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
-<p>Upon Completion of this course, students will be able to:</p>
+<section id="Pop_Music_Generation" class="level2">
+<h2 class="anchored" data-anchor-id="Pop_Music_Generation">Pop Music Generation</h2>
 <ul>
-<li><p>Explain foundational principles of deep learning including gradient descent and backpropagation</p></li>
-<li><p>Implement standard feedforward, convolutional, recurrent, and other neural network architectures in PyTorch</p></li>
-<li><p>Train deep learning models at scale using GPU acceleration and distributed strategies</p></li>
-<li><p>Optimize model training using techniques like regularization, normalization, and dropout</p></li>
-<li><p>Troubleshoot issues like over/underfitting, imbalance, and vanishing/exploding gradients</p></li>
-<li><p>Leverage pretrained models and transfer learning to boost performance</p></li>
-<li><p>Construct custom datasets from scratch and prepare them for use</p></li>
+<li><p><strong><em>Purpose</em></strong>: Explore sequence generation in the context of music using PyTorch.</p></li>
+<li><p><strong><em>Challenge</em></strong>: Train an LSTM model on a dataset of MIDI music files and experiment with different loss functions to generate pop music.</p></li>
 </ul>
-<p>The course will consist of three primary components:</p>
-<ul>
-<li><p><strong><em>Lectures</em></strong> will focus on theoretical aspects of deep learning.</p></li>
-<li><p><strong><em>Practical sessions</em></strong> will involve hands-on demonstrations of best practices in deep learning.</p></li>
-<li><p><strong><em>Programming assignments</em></strong> and defenses will help reinforce the learned concepts and provide practical implementation skills.</p></li>
-</ul>
-</section>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>Calculus, Linear Algebra, Statistics, Probability Theory</p>
-</section>
-<section id="instructor" class="level2">
-<h2 class="anchored" data-anchor-id="instructor">Instructor</h2>
-<p>Sina Moghimi</p>
-<p>Email: <a href="mailto:mogimi.s@phystech.edu">mogimi.s@phystech.edu</a></p>
-<p>Office Hours: Available by request.</p>
-</section>
-<section id="communication" class="level2">
-<h2 class="anchored" data-anchor-id="communication">Communication</h2>
-<p><a href="https://neuralincendio.github.io">This page</a> function as the main hub for the course. Discussion threads are available at <a href="https://github.com/NeuralIncendio/neuralIncendio.github.io/discussions/">discussion page</a> for questions related to the course and for addressing coding problems or bugs. Lecture duration is 4 months (1 Semester).</p>
-</section>
-<section id="lectures" class="level2">
-<h2 class="anchored" data-anchor-id="lectures">Lectures</h2>
-<p>Lectures will be held once a week on Mondays. Lectures notes will be linked on the <a href="#Lecture_Notes">Lecture Notes</a> after the lecture.</p>
-</section>
-<section id="practical-sessions" class="level2">
-<h2 class="anchored" data-anchor-id="practical-sessions">Practical Sessions</h2>
-<p>Practical Sessions will be held once a week on Wednesdays.</p>
-</section>
-<section id="grading" class="level2">
-<h2 class="anchored" data-anchor-id="grading">Grading</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th><strong><em>Main Tasks</em></strong></th>
-<th><strong><em>Points</em></strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1. Assignment <a href="#Neural_Network_Components">Neural Network Components</a></td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>2. Assignment <a href="#Image_Classification">Image Classification</a></td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>3. Assignment <a href="#Music_Genre_Identification">Music Genre Identification</a></td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>4. Assignment <a href="#Image_Reconstruction">Image Reconstruction</a></td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td>5. Assignment <a href="#Pop_Music_Generation">Pop Music Generation</a></td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td>6. Assignment <a href="#Image_Super_Resolution">Image Super-Resolution</a></td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td>7. Assignment <a href="#Music_Composition">Music Composition</a></td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td>8. Final Exam</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td><strong><em>Class Total</em></strong></td>
-<td>100</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th><strong><em>Auxillary Tasks</em></strong></th>
-<th><strong><em>Points</em></strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Capstone Project</td>
-<td>40</td>
-</tr>
-<tr class="even">
-<td>Attendance</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td><strong><em>Auxillary Total</em></strong></td>
-<td>50</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="capstone-project" class="level2">
-<h2 class="anchored" data-anchor-id="capstone-project">Capstone Project</h2>
-<p>As an additional task, students are encouraged to begin contemplating their project ideas during the initial weeks of the course. The capstone project serves as an opportunity for students to explore the application of deep learning techniques to interesting topics, such as Computer Vision, NLP, Biology, and Robotics Control. Students may choose to work individually or in groups.</p>
-<p>The project for this course will require students to write a substantial amount of code to implement a deep learning model. The official programming language and package for this class are Python and PyTorch. Students are free to choose to work with another language or package, but no support will be provided for that.</p>
-<p>In the context of the course, students have the option to utilize their own data for their project, or they may choose from any publicly available dataset.</p>
-</section>
-<section id="late-assignments" class="level2">
-<h2 class="anchored" data-anchor-id="late-assignments">Late Assignments</h2>
-<p>Students are encouraged to submit their assignments promptly. Late assignments will be penalized by deducting 10% of the total score for each day of delay. However, extension requests may be considered on a case-by-case basis, taking into account extenuating circumstances. It is advisable to reach out and discuss any concerns or challenges before the deadline.</p>
-</section>
-<section id="policies" class="level2">
-<h2 class="anchored" data-anchor-id="policies">Policies</h2>
-<section id="collaboration" class="level3">
-<h3 class="anchored" data-anchor-id="collaboration">Collaboration</h3>
-<p>Students are encouraged to collaborate on homework assignments and may seek guidance from external sources such as reference materials, peers, or the instructor. However, any material obtained from external sources must be properly cited. It is expected that all submitted solutions are individually written and reflect the student’s own comprehension of the subject matter at the time of writing. Additionally, Python scripts and plots are considered part of the individual write-up and should be completed independently, allowing for the sharing of ideas but not code.</p>
-</section>
-<section id="academic-integrity-and-plagerism" class="level3">
-<h3 class="anchored" data-anchor-id="academic-integrity-and-plagerism">Academic Integrity and Plagerism</h3>
-<p>The comprehension and prevention of plagiarism are of paramount importance. Plagiarism, defined as the unauthorized use of another individual’s ideas, processes, results, or language without proper acknowledgment, represents a fundamental violation of academic integrity.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<p>By submitting any form of work, whether in print or electronically, individuals are required to adhere to the regulations on plagiarism established by MIPT. Furthermore, by submitting the work, individuals grant MIPT the authority to take measures to verify the authenticity of the submitted material, which may include, but is not limited to, employing a plagiarism detection service and sharing the work with other faculty members.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<!-- ### Task Description -->
+<!-- ### Data Scheme -->
+<!-- ### Suggestions -->
+<!-- ### What to Deliver -->
+<!-- ### General guidelines -->
 
 
 </section>
-</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>https://www.ox.ac.uk/students/academic/guidance/skills/plagiarism<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Elena Bazanova, Academic Writing for Research Purposes, MIPT<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
