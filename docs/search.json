@@ -96,5 +96,61 @@
     "title": "Introduction to Deep Learning: Bridging Theory and Practice using PyTorch",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nhttps://www.ox.ac.uk/students/academic/guidance/skills/plagiarism↩︎\nElena Bazanova, Academic Writing for Research Purposes, MIPT↩︎"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Purpose: Understanding the fundamentals of neural networks by building components from scratch.\nComponents: Layers, activation functions, loss functions, optimizers."
+  },
+  {
+    "objectID": "assignments.html#Neural_Network_Components",
+    "href": "assignments.html#Neural_Network_Components",
+    "title": "Assignments",
+    "section": "",
+    "text": "Purpose: Understanding the fundamentals of neural networks by building components from scratch.\nComponents: Layers, activation functions, loss functions, optimizers."
+  },
+  {
+    "objectID": "assignments.html#Image_Classification",
+    "href": "assignments.html#Image_Classification",
+    "title": "Assignments",
+    "section": "Image Classification",
+    "text": "Image Classification\n\nPurpose: Apply knowledge to design an effective CNN for a real-world task.\nChallenge: Achieve at least 85% validation accuracy on CIFAR-10 through architecture design and hyperparameter tuning."
+  },
+  {
+    "objectID": "assignments.html#Music_Genre_Identification",
+    "href": "assignments.html#Music_Genre_Identification",
+    "title": "Assignments",
+    "section": "Music Genre Identification",
+    "text": "Music Genre Identification\n\nPurpose: Apply image classification techniques to the musical domain using PyTorch.\nChallenge: Design a CNN to identify the genre of a song based on its mel-spectrogram representation."
+  },
+  {
+    "objectID": "assignments.html#Image_Reconstruction",
+    "href": "assignments.html#Image_Reconstruction",
+    "title": "Assignments",
+    "section": "Image Reconstruction",
+    "text": "Image Reconstruction\n\nPurpose: Understand supervised learning and image reconstruction.\nChallenge: Successfully reconstruct images from the Fashion MNIST dataset using an autoencoder."
+  },
+  {
+    "objectID": "assignments.html#Pop_Music_Generation",
+    "href": "assignments.html#Pop_Music_Generation",
+    "title": "Assignments",
+    "section": "Pop Music Generation",
+    "text": "Pop Music Generation\n\nPurpose: Explore sequence generation in the context of music using PyTorch.\nChallenge: Train an LSTM model on a dataset of MIDI music files and experiment with different loss functions to generate pop music."
+  },
+  {
+    "objectID": "assignments.html#Image_Super_Resolution",
+    "href": "assignments.html#Image_Super_Resolution",
+    "title": "Assignments",
+    "section": "Image Super-Resolution",
+    "text": "Image Super-Resolution\n\nPurpose: Explore the use of Generative Adversarial Networks (GANs) and Super-Resolution GANs (SRGANs) for image super resolution, which can enhance the quality of low-resolution images.\nChallenge: Train the GAN and SRGAN models effectively, as they require large amounts of high-quality training data and careful tuning of hyper parameters to achieve good results."
+  },
+  {
+    "objectID": "assignments.html#Music_Composition",
+    "href": "assignments.html#Music_Composition",
+    "title": "Assignments",
+    "section": "Music Composition",
+    "text": "Music Composition\n\nPurpose: Generate new musical compositions based on a learned latent representation using PyTorch.\nChallenge: Train a VAE on piano music and experiment with generating novel compositions."
   }
 ]
