@@ -207,7 +207,7 @@
     "href": "practice.html",
     "title": "Practice",
     "section": "",
-    "text": "Perceptron (Linear Regression)\nActivation Functions\nPerceptron (Logistic Regression)\nMulti Layer Perceptron\nConvolutional Neural Network (CNN)"
+    "text": "Perceptron (Linear Regression)\nActivation Functions\nPerceptron (Logistic Regression)\nMulti Layer Perceptron\nConvolutional Neural Network (CNN)\nRecurrent Neural Network (RNN)\nGated Recurrent Unit (GRU)\nLong Short-Term Memory (LSTM)"
   },
   {
     "objectID": "notes/1_MachineLearning.html",
