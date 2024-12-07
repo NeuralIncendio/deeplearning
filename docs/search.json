@@ -313,5 +313,12 @@
     "title": "Introduction to Deep Learning",
     "section": "",
     "text": "Purpose: Explore sequence generation in the context of music using PyTorch.\nChallenge: Train an LSTM model on a dataset of MIDI music files and experiment with different loss functions to generate pop music."
+  },
+  {
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Main Tasks\nPoints\n\n\n\n\n1. Assignment Neural Network Components\n10\n\n\n2. Assignment Image Classification\n10\n\n\n3. Assignment Music Genre Identification\n10\n\n\n4. Assignment Image Reconstruction\n15\n\n\n5. Assignment Pop Music Generation\n15\n\n\n6. Assignment Image Super-Resolution\n15\n\n\n7. Assignment Music Composition\n15\n\n\n8. Final Exam\n10\n\n\nClass Total\n100"
   }
 ]
