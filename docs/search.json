@@ -4,7 +4,7 @@
     "href": "lectures.html",
     "title": "Lectures",
     "section": "",
-    "text": "Lectures\n\nMachine Learning\nNeural Networks Fundamentals\nPerceptron and Linear Classifiers\nActivation Functions in Neural Networks\nMultilayer Perceptron Architecture\nBackpropagation Mechanism\nGradient Descent Optimization\nLearning Rates and Weight Initialization\nOverfitting and Regularization\nConvolutional Neural Networks(CNNs)\nPerformance Metrics\nActivation Functions in Neural Networks"
+    "text": "Lectures\n\nMachine Learning\nNeural Networks Fundamentals\nPerceptron and Linear Classifiers\nActivation Functions in Neural Networks\nMultilayer Perceptron Architecture\nBackpropagation Mechanism\nGradient Descent Optimization\nLearning Rates and Weight Initialization\nOverfitting and Regularization\nConvolutional Neural Networks(CNNs)\nPerformance Metrics\nRNN, LSTM"
   },
   {
     "objectID": "index.html",
@@ -152,5 +152,166 @@
     "title": "Assignments",
     "section": "Music Composition",
     "text": "Music Composition\n\nPurpose: Generate new musical compositions based on a learned latent representation using PyTorch.\nChallenge: Train a VAE on piano music and experiment with generating novel compositions."
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Course Materials",
+    "section": "",
+    "text": "Deep Learning (MIT Press, Ian Goodfellow)\nDeep Learning with PyTorch (Manning Publications, Eli Stevens)"
+  },
+  {
+    "objectID": "materials.html#for-those-who-love-reading-books",
+    "href": "materials.html#for-those-who-love-reading-books",
+    "title": "Course Materials",
+    "section": "",
+    "text": "Deep Learning (MIT Press, Ian Goodfellow)\nDeep Learning with PyTorch (Manning Publications, Eli Stevens)"
+  },
+  {
+    "objectID": "materials.html#for-those-who-like-reading-online",
+    "href": "materials.html#for-those-who-like-reading-online",
+    "title": "Course Materials",
+    "section": "For those who like reading online",
+    "text": "For those who like reading online\n\nDeep Learning: Link\nDive into Deep Learning: Link"
+  },
+  {
+    "objectID": "materials.html#for-those-who-hate-reading-but-enjoy-watching",
+    "href": "materials.html#for-those-who-hate-reading-but-enjoy-watching",
+    "title": "Course Materials",
+    "section": "For those who hate reading but enjoy watching",
+    "text": "For those who hate reading but enjoy watching\n\nMIT Introduction to Deep Learning: Link\nPytorch Tutorials: Link"
+  },
+  {
+    "objectID": "materials.html#you-would-also-love-to-check",
+    "href": "materials.html#you-would-also-love-to-check",
+    "title": "Course Materials",
+    "section": "You would also love to check",
+    "text": "You would also love to check\n\nExplainable AI: Link\nPhysics-Informed Neural Networks: Link\nUnderstanding Deep Learning: Link"
+  },
+  {
+    "objectID": "materials.html#extra",
+    "href": "materials.html#extra",
+    "title": "Course Materials",
+    "section": "Extra",
+    "text": "Extra\n\n\nCourse syllabus PDF file: Link\nCourse syllabus EPUB file: Link"
+  },
+  {
+    "objectID": "capstone.html",
+    "href": "capstone.html",
+    "title": "Capstone Project",
+    "section": "",
+    "text": "The capstone project is a crucial aspect of the course, providing students with a valuable opportunity to apply their deep learning skills to real-world issues. This project serves as a culmination, allowing students to demonstrate their proficiency gained throughout the course and showcase their ability to independently implement, debug, and deploy production-ready deep learning models using PyTorch. The project’s comprehensive nature involves the application of deep learning techniques to diverse domains like computer vision, NLP, speech recognition, or music generation. By challenging students to think critically and creatively, the project encourages the development of innovative solutions for complex problems. Functioning as a vital assessment method, the capstone project enables students to exhibit their problem-solving and troubleshooting skills, affirming their readiness to apply deep learning in real-world scenarios. Students have the flexibility to suggest project topics, and depending on class size, collaborative teamwork may be encouraged to better prepare them for the job market. The capstone project, therefore, not only assesses academic knowledge but also emphasizes practical application and the ability to address challenges in a professional context."
+  },
+  {
+    "objectID": "practice.html",
+    "href": "practice.html",
+    "title": "Practice",
+    "section": "",
+    "text": "Perceptron (Linear Regression)\nActivation Functions\nPerceptron (Logistic Regression)\nMulti Layer Perceptron\nConvolutional Neural Network (CNN)"
+  },
+  {
+    "objectID": "notes/1_MachineLearning.html",
+    "href": "notes/1_MachineLearning.html",
+    "title": "Machine Learning",
+    "section": "",
+    "text": "Machine Learning\nUnderstanding the Foundations of Intelligent Systems"
+  },
+  {
+    "objectID": "assignments_folder/assignment4.html",
+    "href": "assignments_folder/assignment4.html",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Understand supervised learning and image reconstruction.\nChallenge: Successfully reconstruct images from the Fashion MNIST dataset using an autoencoder."
+  },
+  {
+    "objectID": "assignments_folder/assignment4.html#Image_Reconstruction",
+    "href": "assignments_folder/assignment4.html#Image_Reconstruction",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Understand supervised learning and image reconstruction.\nChallenge: Successfully reconstruct images from the Fashion MNIST dataset using an autoencoder."
+  },
+  {
+    "objectID": "assignments_folder/assignment7.html",
+    "href": "assignments_folder/assignment7.html",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Generate new musical compositions based on a learned latent representation using PyTorch.\nChallenge: Train a VAE on piano music and experiment with generating novel compositions."
+  },
+  {
+    "objectID": "assignments_folder/assignment7.html#Music_Composition",
+    "href": "assignments_folder/assignment7.html#Music_Composition",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Generate new musical compositions based on a learned latent representation using PyTorch.\nChallenge: Train a VAE on piano music and experiment with generating novel compositions."
+  },
+  {
+    "objectID": "assignments_folder/assignment2.html",
+    "href": "assignments_folder/assignment2.html",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Apply knowledge to design an effective CNN for a real-world task.\nChallenge: Achieve at least 85% validation accuracy on CIFAR-10 through architecture design and hyperparameter tuning."
+  },
+  {
+    "objectID": "assignments_folder/assignment2.html#Image_Classification",
+    "href": "assignments_folder/assignment2.html#Image_Classification",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Apply knowledge to design an effective CNN for a real-world task.\nChallenge: Achieve at least 85% validation accuracy on CIFAR-10 through architecture design and hyperparameter tuning."
+  },
+  {
+    "objectID": "assignments_folder/assignment1.html",
+    "href": "assignments_folder/assignment1.html",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Understanding the fundamentals of neural networks by building components from scratch.\nComponents: Layers, activation functions, loss functions, optimizers."
+  },
+  {
+    "objectID": "assignments_folder/assignment1.html#Neural_Network_Components",
+    "href": "assignments_folder/assignment1.html#Neural_Network_Components",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Understanding the fundamentals of neural networks by building components from scratch.\nComponents: Layers, activation functions, loss functions, optimizers."
+  },
+  {
+    "objectID": "assignments_folder/assignment3.html",
+    "href": "assignments_folder/assignment3.html",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Apply image classification techniques to the musical domain using PyTorch.\nChallenge: Design a CNN to identify the genre of a song based on its mel-spectrogram representation."
+  },
+  {
+    "objectID": "assignments_folder/assignment3.html#Music_Genre_Identification",
+    "href": "assignments_folder/assignment3.html#Music_Genre_Identification",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Apply image classification techniques to the musical domain using PyTorch.\nChallenge: Design a CNN to identify the genre of a song based on its mel-spectrogram representation."
+  },
+  {
+    "objectID": "assignments_folder/assignment6.html",
+    "href": "assignments_folder/assignment6.html",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Explore the use of Generative Adversarial Networks (GANs) and Super-Resolution GANs (SRGANs) for image super resolution, which can enhance the quality of low-resolution images.\nChallenge: Train the GAN and SRGAN models effectively, as they require large amounts of high-quality training data and careful tuning of hyper parameters to achieve good results."
+  },
+  {
+    "objectID": "assignments_folder/assignment6.html#Image_Super_Resolution",
+    "href": "assignments_folder/assignment6.html#Image_Super_Resolution",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Explore the use of Generative Adversarial Networks (GANs) and Super-Resolution GANs (SRGANs) for image super resolution, which can enhance the quality of low-resolution images.\nChallenge: Train the GAN and SRGAN models effectively, as they require large amounts of high-quality training data and careful tuning of hyper parameters to achieve good results."
+  },
+  {
+    "objectID": "assignments_folder/assignment5.html",
+    "href": "assignments_folder/assignment5.html",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Explore sequence generation in the context of music using PyTorch.\nChallenge: Train an LSTM model on a dataset of MIDI music files and experiment with different loss functions to generate pop music."
+  },
+  {
+    "objectID": "assignments_folder/assignment5.html#Pop_Music_Generation",
+    "href": "assignments_folder/assignment5.html#Pop_Music_Generation",
+    "title": "Introduction to Deep Learning",
+    "section": "",
+    "text": "Purpose: Explore sequence generation in the context of music using PyTorch.\nChallenge: Train an LSTM model on a dataset of MIDI music files and experiment with different loss functions to generate pop music."
   }
 ]
